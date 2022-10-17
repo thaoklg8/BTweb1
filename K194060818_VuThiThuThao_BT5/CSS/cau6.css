@@ -1,0 +1,95 @@
+#main {
+    background-color: rgb(19, 16, 170);
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+}
+
+.form__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form__header h1 {
+    text-align: center;
+}
+
+.form__row--today {
+    padding-left: 50%;
+}
+
+.form__row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.medium input {
+    width: 200px;
+}
+
+.form__row>:first-child {
+    text-align: left;
+    width: 30%;
+    margin-left: 20px;
+}
+
+#record,
+#dob {
+    width: 100px;
+}
+
+#weight {
+    width: 70px;
+    height: 15px;
+}
+
+#physician {
+    width: 200px;
+}
+
+#pulse,
+#activity,
+#grimace,
+#apperance,
+#respira {
+    width: 20px;
+    height: 22px;
+}
+
+#total {
+    width: 40px;
+    height: 22px;
+}
+
+.total {
+    text-decoration: underline;
+}
+
+.total label:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.form__row--sub {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.form__row--sub>:first-child {
+    text-align: left;
+    width: 90%;
+}
+
+.form__row--sub>:last-child {
+    margin-left: 90px;
+}
+
+.form__footer {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.footer {
+    display: inline-block;
+}

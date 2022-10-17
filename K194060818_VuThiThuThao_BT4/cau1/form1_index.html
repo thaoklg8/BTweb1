@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Register</title>
+</head>
+
+<body>
+    <div class="main">
+        <form action="#" method="get">
+            <div class="header">
+                <img src="Jackson.gif" alt="">
+                <h2>Registration</h2>
+                <p>Registration Jackson Electrolics Product here</p>
+            </div>
+            <div class="container">
+                <div class="form-row flex-row">
+                    <label for="firstName" class="form__label">FirstName</label>
+                    <input type="text" id="firstName" class="form__input medium-width ">
+                    <label for="lastName ">LastName</label>
+                    <input type="text" id="lastName" class="form__input medium-width ">
+                </div>
+                <div class="form-row flex-row">
+                    <label for="address1" class="form__label">Address#1</label>
+                    <input type="text" id="address1" class="form__input medium-size">
+                </div>
+                <div class="form-row flex-row">
+                    <label for="address2" class="form__label ">Address#2</label>
+                    <input type="text" id="address2" class="form__input medium-size">
+                </div>
+                <div class="form-row flex-row">
+                    <label for="city" class="form__label ">City</label>
+                    <input type="text" id="city" class="form__input">
+                    <label for="state">State</label>
+                    <input type="text" id="state" class="form__input small-width">
+                    <label for="zip">Zip</label>
+                    <input type="text" id="zip" class="form__input small-width">
+                </div>
+                <div class="form-row flex-row">
+                    <label for="country" class="form__label ">Country</label>
+                    <input type="text" id="country" class="form__input" value="United States">
+
+                </div>
+
+                <hr>
+                <div class="form-row flex-row">
+                    <label for="procduct" class="form__label">Product</label>
+                    <select name="procduct" id="procduct">
+                    <option value="scan">ScanMaster</option>
+                    <option value="option2">Option2</option>
+                    <option value="option3">Option3</option>
+                    <option value="option4">Option4</option>
+                </select>
+                </div>
+                <div class="form-row flex-row">
+                    <label for="date" class="form__label">Date Purschared</label>
+                    <input type="text" id="date" class="form__input">
+                </div>
+                <div class="form-row flex-row">
+                    <label for="Seria" class="form__label">Serial#</label>
+                    <input type="text" id="Seria" class="form__input">
+                </div>
+                <div class="form-row flex-row">
+                    <label class="form__label">User for</label>
+                    <div class="flex-row2">
+                        <div class="item">
+                            <input type="radio" name="userfor" value="Home">Home
+                        </div>
+                        <div class="item">
+                            <input type="radio" name="userfor">Educational Instriution
+                        </div>
+                        <div class="item">
+                            <input type="radio" name="userfor">Business
+                        </div>
+                        <div class="item">
+                            <input type="radio" name="userfor">Other
+                        </div>
+                        <div class="item">
+                            <input type="radio" name="userfor">Goververment
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row flex-row">
+                    <label class="form__label">System (check all that apply)</label>
+                    <div class="flex-row2">
+                        <div class="item">
+                            <input type="checkbox">Windows
+                        </div>
+                        <div class="item">
+                            <input type="checkbox">UNIX
+                        </div>
+                        <div class="item">
+                            <input type="checkbox">Macinosh
+                        </div>
+                        <div class="item">
+                            <input type="checkbox">Other
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="form-row flex-row">
+                    <label class="form__label">Comment?</label>
+                    <input type="text" class="large">
+                </div>
+
+
+
+            </div>
+            <div class="form-row flex-row">
+
+                <div class="block">
+                    <input type="submit" name="submit" value="Click to register" class="form__button btn-register" onclick="alert('Đăng ký!')">
+                    <input type="reset" name="reset" value="Click to cancel" class="form__button">
+                </div>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

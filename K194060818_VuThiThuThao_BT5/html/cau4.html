@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+    <script src="../JS/cau4.js" defer></script>
+    <style>
+        td {
+            text-align: center;
+        }
+        
+        input {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <form action="#" method="get">
+            <table>
+                <section>Sử dụng các hàm xử lý Chuỗi</section>
+                <tr>
+                    <td>
+                        <fieldset>
+                            <legend>Nhập dữ liệu:</legend>
+                            <textarea name="" id="idtext" cols="30" rows="5"></textarea>
+                        </fieldset>
+
+                    </td>
+                    <td>
+                        <fieldset>
+                            <legend>Kết quả:</legend>
+                            <textarea name="" id="result" cols="30" rows="5"></textarea>
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" name="reset" value="Nhập dữ liệu" onclick="nhapDuLieu()"></button>
+                    </td>
+                    <td>
+                        <input type="button" value="Đếm ký tự hoa" onclick="demHoa()"></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="In chữ hoa" onclick="inHoa()"></button>
+                    </td>
+                    <td>
+                        <input type="button" value="In mỗi từ trên mỗi dòng" onclick="inTungDong()"></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="In chữ thường" onclick="inThuong()"></button>
+                    </td>
+                    <td>
+                        <input type="button" value="Đếm số từ" onclick="demTu()"></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="Đếm số ký tự thường" onclick="demThuong()"></button>
+                    </td>
+                    <td>
+                        <input type="button" value="In nguyên âm, phụ âm" onclick="demNguyenAm()"></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="button" value="Xem Website xử lý chuỗi w3c" onclick="chuyenTrang()"></button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

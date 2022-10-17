@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server</title>
+</head>
+
+<body>
+    <div>
+        <p>Tên: <span id="name1"></span></p>
+        <p>Email: <span id="email"></span></p>
+        <p>Giới tính: <span id="gender"></span></p>
+        <p>Đã có nghề nghiệp ổn định: <span id="checkbox1"></span></p>
+        <p>Đến từ: <span id="from"></span></p>
+        <p>Nội dung: <span id="content"></span></p>
+    </div>
+</body>
+<script defer>
+    function getUrl() {
+        const params = new URLSearchParams(window.location.search);
+        return params;
+    }
+    var name1 = getUrl().get("name");
+    var email = getUrl().get("email");
+    var gender = getUrl().get("gender");
+    var from = getUrl().get("from");
+    var checkbox1 = getUrl().get("checkbox1");
+
+
+    var content = getUrl().get("content");
+
+    document.getElementById("name1").innerText = name1;
+    document.getElementById("email").innerText = email;
+    document.getElementById("gender").innerText = gender == "0" ? "Nam" : "Nữ";
+    document.getElementById("from").innerText = from;
+    document.getElementById("content").innerText = content;
+    document.getElementById("checkbox1").innerText = checkbox1 == "yes" ? "Đã có nghề nghiệp ổn định" : "Chưa có nghề nghiệp ổn định";
+</script>
+
+</html>

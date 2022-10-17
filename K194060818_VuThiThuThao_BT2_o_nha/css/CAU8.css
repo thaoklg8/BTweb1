@@ -1,0 +1,47 @@
+.main {
+    width: 800px;
+    height: 800px;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.content {
+    height: 600px;
+    width: 800px;
+    background-color: black
+}
+
+.content ifrAME {
+    width: 100%;
+    height: 600px;
+}
+
+.child {
+    width: 700px;
+}
+
+.child .left {
+    width: 300px;
+    height: 600px;
+    float: left;
+}
+
+.child .left img {
+    width: 100%;
+}
+
+.child .right {
+    width: 380px;
+    height: 600px;
+    float: right;
+}
+
+.child .right iframe {
+    width: 450px;
+    height: 600px;
+}

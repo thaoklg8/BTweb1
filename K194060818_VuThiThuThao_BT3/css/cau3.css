@@ -1,0 +1,16 @@
+.main {
+    background-image: url(/img/camel.gif);
+    background-position: right bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+ol li ul li {
+    list-style: circle;
+}
+
+.copyright {
+    color: tomato;
+}

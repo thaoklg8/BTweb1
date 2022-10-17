@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Travel Expense Report</title>
+</head>
+
+<body>
+    <div class="main">
+        <form action="#" method="get">
+            <div class="header">
+                <img src="DeLong.jpg" alt="">
+                <h3>Travel Expense Report</h3>
+                <hr>
+            </div>
+            <div class="container">
+                <ol>
+                    <li>
+                        <div class="form-row flex">
+                            <lable>First Name </lable>
+                            <input type="text" class="form__input" name="firstName">
+                            <lable class="margin-lable">Last Name </lable>
+                            <input type="text" class="form__input" name="lastName">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-row flex">
+                            <lable>Socical Security Number </lable>
+                            <input type="number" class="form__input" name="number">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-row flex">
+                            <lable>Department</lable>
+                            <select name="department" id="department">
+                            <option value="department1">Accounting</option>
+                            <option value="department2">option 2</option>
+                            <option value="department3">option 3</option>
+                        </select>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-row">
+                            <lable>Describe the purpose of your trip</lable>
+                            <input type="text" class="form__input" name="describe">
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="form-row">
+                            <lable>Itemize your travel expenses:</lable>
+                            <table>
+                                <tr>
+                                    <td>Date</td>
+                                    <td>Description</td>
+                                    <td>Category</td>
+                                    <td>Amount</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="date" class="form__input">
+                                    </td>
+                                    <td>
+                                        <input type="text" class="form__input" name="description">
+                                    </td>
+                                    <td>
+                                        <select name="category" id="category">
+                                            <option value="meal">Meal</option>
+                                            <option value="option2">Option2</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <input type="text" class="form__input full" name="amount">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="date" class="form__input">
+                                    </td>
+                                    <td>
+                                        <input type="text" class="form__input" name="description">
+                                    </td>
+                                    <td>
+                                        <select name="category" id="category">
+                                             <option value="meal">Meal</option>
+                                            <option value="option2">Option2</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <input type="text" class="form__input full" name="amount">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="date" class="form__input">
+                                    </td>
+                                    <td>
+                                        <input type="text" class="form__input" name="description">
+                                    </td>
+                                    <td>
+                                        <select name="category" id="category">
+                                            <option value="meal">Meal</option>
+                                            <option value="option2">Option2</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <input type="text" class="form__input full" name="amount">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="date" class="form__input">
+                                    </td>
+                                    <td>
+                                        <input type="text" class="form__input" name="description">
+                                    </td>
+                                    <td>
+                                        <select name="category" id="category">
+                                            <option value="meal">Meal</option>
+                                            <option value="option2">Option2</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <input type="text" class="form__input full" name="amount">
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-row">
+                            <lable>Have you submitted your receipt?</lable>
+                            <input type="radio" name="receipt">Yes
+                            <input type="radio" name="receipt">No
+                        </div>
+                        <div class="form-row">
+                            <div class="block">
+                                <input type="submit" name="submit" value="Submit travel expenses" class="form__button" onclick="alert('Submit!')">
+                                <input type="reset" name="reset" value="Reset" class="form__button">
+                            </div>
+                        </div>
+                    </li>
+                </ol>
+                <p>Questions? Contact Debbie Larson in Accounting (ext. 2150)</p>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

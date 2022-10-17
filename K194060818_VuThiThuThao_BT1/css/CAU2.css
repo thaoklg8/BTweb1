@@ -1,0 +1,19 @@
+.main {
+    background-color: rgba(243, 220, 189, 0.6);
+    height: auto;
+    margin: 0px 0px;
+    padding: 0;
+}
+
+.top {
+    width: 95%;
+    margin-left: 2%;
+}
+
+.content {
+    font-size: 18px;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}

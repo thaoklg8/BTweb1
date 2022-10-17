@@ -1,0 +1,23 @@
+.main {
+    margin: 0 20%;
+}
+
+.main p,
+li {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.main ul {
+    list-style: none;
+    padding: 0;
+}
+
+li,
+.italic {
+    font-style: italic;
+}
+
+.center {
+    text-align: center;
+}

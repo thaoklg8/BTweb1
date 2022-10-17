@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        .main {
+            width: 300px;
+            margin: 0 auto;
+        }
+        
+        .form-row {
+            margin-top: 5px;
+        }
+        
+        .form-row>label {
+            width: 80px;
+        }
+        
+        .flexrow {
+            display: flex;
+        }
+        
+        .flexrow-col {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .flexrow-col label {
+            width: 100%;
+        }
+        
+        .block {
+            float: right;
+        }
+        
+        .form__button {
+            display: block;
+            width: 140px;
+            height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <form action="./server.html" method="get">
+            <div class="form-row flexrow">
+                <label class="form__label" for="fullname">Họ và tên:</label>
+                <input class="form__input" type="text" name="name" id="fullname">
+            </div>
+            <div class="form-row flexrow">
+                <label class="form__label" for="email">Email:</label>
+                <input class="form__input" type="text" name="email" id="email">
+            </div>
+            <div class="form-row flexrow">
+                <label class="form__label" for="gender">Giới tính:</label>
+                <div class="form__input">
+                    <input type="radio" value="0" name="gender" checked> Nam
+                    <input type="radio" value="1" name="gender"> Nữ
+                </div>
+            </div>
+            <div class="form-row flexrow">
+                <input type="checkbox" id="checkbox1" name="yes"> Tôi đã có nghề nghiệp ổn định
+            </div>
+            <div class="form-row flexrow">
+                <label class="form__label" for="from">Đến từ:</label>
+                <select name="from" id="from">
+                    <option value="Miền Bắc">Miền Bắc</option>
+                    <option value="Miền Trung">Miền Trung</option>
+                    <option value="Miền Nam">Miền Nam</option>
+                    <option value="Miền Tây">Miền Tây</option>
+                </select>
+            </div>
+            <div class="form-row flexrow-col">
+                <label for="content">Nội dung cần bạn liên hệ chúng tôi:</label>
+            </div>
+            <div class="form-row">
+                <textarea name="content" id="content" cols="40" rows="10" placeholder="Nội dung thêm vào đây"></textarea>
+            </div>
+            <div class="form-row">
+                <div class="block">
+                    <input type="submit" name="submit" value="Gởi thông điệp">
+                    <input type="reset" name="cancel" value="Nhập lại tất cả">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

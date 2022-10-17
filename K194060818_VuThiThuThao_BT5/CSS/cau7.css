@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+}
+
+.main {
+    background-image: url(/img/Wrap.jpg);
+    background-repeat: repeat;
+    background-size: auto;
+    max-width: 900px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    max-width: 700px;
+    margin: 5px auto;
+    border: 1px solid black;
+    background-color: ivory;
+    font-size: 14px;
+}
+
+.container-left {
+    background-color: black;
+    min-width: 100px;
+}
+
+.container__link h2 {
+    color: white;
+}
+
+.container__display {
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: rgb(231, 205, 58);
+}
+
+.container__title img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.container__content {
+    display: flex;
+    padding: 15px;
+}
+
+.container__content_right {
+    margin-left: 10px;
+}
+
+.container__footer {
+    text-align: center;
+    color: rgb(25, 112, 86);
+}
+
+.container__footer p {
+    margin-bottom: 0px;
+}
+
+h3 {
+    color: green;
+    margin: 20px auto;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+a:hover {
+    color: red;
+}

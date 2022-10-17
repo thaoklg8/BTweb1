@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="../CSS/cau6.css">
+    <script src="../JS/cau6.js" defer></script>
+
+</head>
+
+<body>
+    <div class="form--container" id="main">
+        <div class="form__header">
+            <h1>Neonatal Feeding Study</h1>
+        </div>
+        <div class="form__row--today form__row">
+            <label class="form__label" for="date">Today is:</label>
+            <input class="form__input" type="text" name="datetime" id="date">
+        </div>
+        <div class="form__row">
+            <label class="form__label" for="fullname">1) Name (first, last):</label>
+            <input class="form__input" type="text" name="name" id="fullname">
+            <input class="form__input" type="text" name="name" id="lastname" style="margin-left: 10px;">
+        </div>
+        <div class="form__row">
+            <label class="form__label" for="medical">2) Medical Record #:</label>
+            <input class="form__input medium" type="text" id="medical">
+        </div>
+        <div class="form__row">
+            <label class="form__label" for="dob">3) Date of birth:</label>
+            <input class="form__input medium" type="date" name="dob" id="dob">
+        </div>
+        <div class="form__row">
+            <label class="form__label" for="physician">4) Physician:</label>
+            <select id="physician" name="physician" onclick="notice()">
+                <option >Dr.Warren Albert</option>
+                <option >Dr.Maria Alvarez</option>
+                <option >Dr.Karen Brinkman</option>
+                <option >Dr.Micheal Kerry</option>
+                <option id="physician_other" >Other</option>
+            </select>
+        </div>
+        <div class="form__row">
+            <label class="form__label" for="specified">If other(specify):</label>
+            <input class="form__input1" type="text" name="iforther" id="specified">
+        </div>
+        <div class="form__row">
+            <label class="form__label" for="score">5) 1 Minute APGAR Score: Each score must be 0,1, or 2</label>
+            <div class="form__input form__input--sub" name="score1" id="score">
+                <div class="form__row--sub">
+                    <label class="form__label--sub" for="activity">Activity</label>
+                    <input class="form__input--sub" type="text" name="activity" id="activity" oninput="check(document.getElementById('activity').value)">
+                </div>
+                <div class="form__row--sub">
+                    <label class="form__label--sub" for="pulse">Pulse</label>
+                    <input class="form__input--sub" type="text" name="pulse" id="pulse" oninput="check(document.getElementById('pulse').value)">
+                </div>
+                <div class="form__row--sub">
+                    <label class="form__label--sub" for="grimace">Grimace (Reflex, Irritability)</label>
+                    <input class="form__input--sub" type="text" name="grimace" id="grimace" oninput="check(document.getElementById('grimace').value)">
+                </div>
+                <div class="form__row--sub">
+                    <label class="form__label--sub" for="apperance">Appearance (Skin Color)</label>
+                    <input class="form__input--sub" type="text" name="apperance" id="apperance" oninput="check(document.getElementById('apperance').value)">
+                </div>
+                <div class="form__row--sub">
+                    <label class="form__label--sub" for="respira">Respiration</label>
+                    <input class="form__input--sub" type="text" name="respira" id="respira" oninput="check(document.getElementById('respira').value)">
+                </div>
+                <div class="form__row--sub total">
+                    <label class="form__label--sub" for="total" onclick="sum()">TOTAL</label>
+                    <input class="form__input--sub" type="text" name="sum" id="total">
+                </div>
+            </div>
+        </div>
+        <div class="form__row">
+            <label class="form__label" for="weight">6) Birth weight (gms) <br/><span>Weights must be >=1200 gms</span></label>
+            <input class="form__input" type="text" name="weight" id="weight">
+        </div>
+        <div class="form__row">
+            <label class="form__label" for="parental">7) Parental Consent (required):</label>
+            <input class="form__input" type="checkbox" name="parental" id="parental">
+        </div>
+        <div class="form__footer">
+            <input class="footer" type="submit" value="Register" onclick="register()">
+            <input class="footer" type="reset" value="Reload Page" onclick="location.reload()">
+        </div>
+    </div>
+</body>
+
+</html>

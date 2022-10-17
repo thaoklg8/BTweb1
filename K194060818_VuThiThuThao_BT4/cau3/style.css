@@ -1,0 +1,90 @@
+    .main {
+        width: 900px;
+        margin: 0 auto;
+        background-color: turquoise;
+    }
+    
+    .header {
+        margin: 20px;
+    }
+    
+    .header img {
+        display: block;
+        margin: 0px auto;
+    }
+    
+    .container {
+        margin-left: 5px;
+        padding-bottom: 10px;
+    }
+    
+    .form-row {
+        width: 600px;
+        margin-top: 20px;
+    }
+    
+    .full {
+        width: 90%;
+    }
+    
+    .flex {
+        display: flex;
+    }
+    
+    .flexrow {
+        display: flex;
+        width: 500px;
+        flex-wrap: wrap;
+    }
+    
+    .flex input,
+    .flex select {
+        height: 18px;
+        margin: auto 2px;
+    }
+    
+    .form__input {
+        width: 150px;
+        height: 18px;
+    }
+    
+    table {
+        border: 1px solid black;
+    }
+    
+    td {
+        border: 1px solid black;
+    }
+    
+    tr:first-child {
+        text-align: center;
+    }
+    
+    td:nth-child(2) {
+        width: 200px;
+    }
+    
+    td:nth-child(2) input {
+        display: block;
+        margin: 2px auto;
+    }
+    
+    td:last-child {
+        width: 100px;
+    }
+    
+    td:last-child input {
+        width: 80px;
+        display: block;
+        margin: 2px auto;
+    }
+    
+    .form__button {
+        background-color: antiquewhite;
+        justify-content: center;
+        border-radius: 5px;
+    }
+    
+    .margin-lable {
+        margin-left: 10px;
+    }

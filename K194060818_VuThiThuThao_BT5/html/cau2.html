@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máy tính</title>
+</head>
+
+<body>
+    <div class="main">
+        <table>
+            <tr>
+                <td>a (Số thứ nhất)</td>
+                <td><input type="text" id="a" class="input_number"> </td>
+            </tr>
+            <tr>
+                <td>b (Số thứ hai)</td>
+                <td><input type="text" id="b" class="input_number"> </td>
+            </tr>
+            <tr>
+                <td>c (Số thứ ba)</td>
+                <td><input type="text" id="c" class="input_number"> </td>
+            </tr>
+            <tr>
+                <td>KẾT QUẢ</td>
+                <td><label id="result"></label> </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" value="MIN" class="form__button" onclick="mina()">
+                    <input type="button" value="MAX" class="form__button" onclick="maxa()">
+                    <input type="button" value="sin(a)" class="form__button" onclick="sina()">
+                    <input type="button" value="cos(a)" class="form__button" onclick="cosa()">
+                    <input type="button" value="a^b" class="form__button" onclick="a()">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script>
+    function mina() {
+        var a = Number(document.getElementById("a").value);
+        var b = Number(document.getElementById("b").value);
+        var c = Number(document.getElementById("c").value);
+        var result = a;
+        if (result > b) {
+            result = b;
+        }
+        if (result > c) {
+            result = c;
+        }
+        document.getElementById("result").innerText = result;
+    }
+
+    function maxa() {
+        var a = Number(document.getElementById("a").value);
+        var b = Number(document.getElementById("b").value);
+        var c = Number(document.getElementById("c").value);
+        var result = a;
+        if (result < b) {
+            result = b;
+        }
+        if (result < c) {
+            result = c;
+        }
+        document.getElementById("result").innerText = result;
+    }
+
+    function sina() {
+        var a = Number(document.getElementById("a").value);
+        var result = Math.sin(a);
+        document.getElementById("result").innerText = result;
+    }
+
+    function cosa() {
+        var a = Number(document.getElementById("a").value);
+        var result = Math.cos(a);
+        document.getElementById("result").innerText = result;
+    }
+
+    function a() {
+        var a = Number(document.getElementById("a").value);
+        var b = Number(document.getElementById("b").value);
+        var result = Math.pow(a, b);
+        document.getElementById("result").innerText = result;
+    }
+</script>
+
+</html>

@@ -1,0 +1,66 @@
+        .main {
+            min-width: 700px;
+            margin: 0 auto;
+            background-color: rgb(152, 216, 224);
+        }
+        
+        .header {
+            margin: 10px;
+        }
+        
+        h1 {
+            color: red;
+        }
+        
+        ol {
+            font-weight: bold;
+        }
+        
+        ol input,
+        .item {
+            font-weight: 100;
+        }
+        
+        .form-row {
+            width: 500px;
+        }
+        
+        .full {
+            width: 70vw;
+        }
+        
+        .flexrow {
+            display: flex;
+            width: 500px;
+            flex-wrap: wrap;
+        }
+        
+        .flexrow2 {
+            width: 700px;
+        }
+        
+        .item {
+            width: 200px;
+            display: flex;
+            padding: 5px;
+        }
+        
+        .flexrow3 {
+            display: flex;
+        }
+        
+        .date input {
+            height: 20px;
+            margin: auto 3px;
+        }
+        
+        button {
+            background-color: inherit;
+            border: none;
+        }
+        
+        @media screen and (max-width: 700px) {
+            .flexrow2 {
+                width: 500px;
+            }
+        }

@@ -1,0 +1,10 @@
+.center img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td:first-child {
+    background-color: lawngreen;
+    height: 50vh;
+}

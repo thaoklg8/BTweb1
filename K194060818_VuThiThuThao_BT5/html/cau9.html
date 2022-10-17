@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color picker</title>
+    <style>
+        .main {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            width: 800px;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        .flexbox {
+            display: flex;
+        }
+        
+        .form__content--right,
+        .form__content--left {
+            flex: 1;
+            border: 1px solid black;
+            padding: 5px;
+        }
+        
+        .form__label {
+            margin-left: 10px;
+            text-transform: uppercase;
+        }
+        
+        .form__input {
+            width: 30px;
+        }
+        
+        .form__btn {
+            margin: 10px auto;
+            text-align: center;
+        }
+        
+        .form__btn input {
+            text-align: center;
+            border-radius: 15px;
+            width: 80px;
+        }
+        
+        .form__btn input:hover {
+            border: 3px solid rgb(10, 46, 167);
+        }
+    </style>
+</head>
+<script>
+</script>
+
+<body>
+    <div class="main">
+        <form action="#">
+            <h1>A Simple Color Picker</h1>
+            <div class="flexbox">
+                <div class="form__content--left ">
+                    <p>Background (enter value from '00' to 'FF')</p>
+                    <div class="content-row">
+                        <label class="form__label" for="b-red">red</label>
+                        <input class="form__input" type="text" name="color-red" id="b-red">
+                        <label class="form__label" for="b-green">green</label>
+                        <input class="form__input" type="text" name="color-green" id="b-green">
+                        <label class="form__label" for="b-blue">blue</label>
+                        <input class="form__input" type="text" name="color-blue" id="b-blue">
+                    </div>
+                    <p>Text (enter value from '00' to 'FF')</p>
+                    <div class="content-row">
+                        <label class="form__label" for="t-red">red</label>
+                        <input class="form__input" type="text" name="color-red" id="t-red">
+                        <label class="form__label" for="t-green">green</label>
+                        <input class="form__input" type="text" name="color-green" id="t-green">
+                        <label class="form__label" for="t-blue">blue</label>
+                        <input class="form__input" type="text" name="color-blue" id="t-blue">
+                    </div>
+                    <div class="form__btn">
+                        <input class="form__button" id="btnApply" type="button" value="Apply" onclick="changeColor()">
+                        <input class="form__button" type="reset" value="Reload" onclick="location.reload()">
+                    </div>
+                </div>
+                <div class="form__content--right" id="content">
+                    <h3>HAMLET: </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet reprehenderit esse rerum sequi ab hic? Alias, cum. Quisquam perspiciatis nisi odit nulla quam reprehenderit. Distinctio error delectus quod id ratione. Lorem ipsum dolor
+                        sit amet consectetur, adipisicing elit. Unde cupiditate quae, quis laboriosam sequi dolore sit expedita, quos voluptatibus dolores, fugit sunt dolorem facere! Voluptate fugiat omnis quas tempora sequi!</p>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+<script>
+    function getText(a, b, c) {
+        var b1 = document.getElementById(a).value;
+        var b2 = document.getElementById(b).value;
+        var b3 = document.getElementById(c).value;
+        return (b1 + b2 + b3);
+    }
+
+    function changeColor() {
+        var bColor = "#" + getText("b-red", "b-green", "b-blue");
+        document.getElementById("content").style.backgroundColor = "#FFFFFF";
+        document.getElementById("content").style.backgroundColor = bColor;
+        var tColor = "#" + getText("t-red", "t-green", "t-blue");
+        document.getElementById("content").style.color = "#FFFFFF";
+        document.getElementById("content").style.color = tColor;
+    }
+</script>
+
+</html>

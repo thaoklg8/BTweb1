@@ -1,0 +1,52 @@
+.main {
+    width: 98w;
+    height: auto;
+    background-image: url('/img/CAU5/Space.jpg');
+    color: white;
+}
+
+p,
+ul {
+    font-size: 18px;
+}
+
+.top {
+    text-align: center;
+}
+
+.para1 {
+    display: flex;
+}
+
+.para1 .pic,
+.para1 p {
+    margin: 0 10px 15px 15px;
+}
+
+.para2 {
+    margin-left: 15px;
+}
+
+a {
+    color: rgb(42, 78, 241);
+    font-weight: bolder;
+}
+
+a:hover {
+    color: crimson;
+}
+
+a:active {
+    color: rgb(5, 13, 51);
+}
+
+.para2 li {
+    padding: 5px;
+}
+
+
+/**/
+
+.bottom {
+    text-align: center;
+}

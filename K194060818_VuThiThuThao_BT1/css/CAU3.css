@@ -1,0 +1,32 @@
+.main {
+    height: auto;
+    background-image: url("/img/C3_Diamonds.jpg");
+    font-family: 'Times New Roman', Cambria, Cochin, Georgia, Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    text-align: center;
+}
+
+h2 {
+    line-height: 20px;
+}
+
+hr {
+    width: 40%;
+}
+
+.bottom {
+    margin-left: 25%;
+}
+
+ol {
+    font-size: 22px;
+}
+
+.small {
+    font-size: 6px;
+    margin: 5px;
+}

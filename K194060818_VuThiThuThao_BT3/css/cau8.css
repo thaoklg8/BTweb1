@@ -1,0 +1,154 @@
+.main {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main--header {
+    background-color: orange;
+    width: 100%;
+    height: 80px;
+    text-shadow: 10px 10px 10px #999999;
+}
+
+.main--header p {
+    font-size: 30px;
+    color: white;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.header--logo {
+    display: flex;
+}
+
+.box {
+    width: 10px;
+    height: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.box1 {
+    background-color: blueviolet;
+}
+
+.box2 {
+    background-color: blue;
+}
+
+.box3 {
+    background-color: rgb(24, 71, 173);
+}
+
+.box4 {
+    background-color: rgb(32, 135, 167);
+}
+
+.box5 {
+    background-color: rgb(36, 220, 233);
+}
+
+.box6 {
+    background-color: rgb(132, 241, 223);
+}
+
+.content {
+    background-color: rgba(83, 64, 21, 0.2);
+}
+
+.main--content {
+    display: flex;
+}
+
+.main__item--left {
+    width: 350px;
+    border: 1px solid blue;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.main__item--left li {
+    margin-top: 5px;
+    list-style: none;
+}
+
+.main__item--left a {
+    color: black;
+    text-decoration: none;
+}
+
+.main__item--left a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.left--header {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    width: 90%;
+    height: 25px;
+    line-height: 25px;
+    margin: 5px auto 0 auto;
+    letter-spacing: 5px;
+}
+
+.main__item--right {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.main__item--right h1 {
+    color: blue;
+    letter-spacing: 10px;
+}
+
+.main__table {
+    border: 3px solid blue;
+    border-collapse: collapse;
+}
+
+.main__table td,
+.main__table th {
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.main__table tr {
+    background-color: white;
+}
+
+.main__table tr:first-child {
+    background-color: orange;
+    color: white;
+    text-align: center;
+}
+
+.main__table td:first-child {
+    width: 300px;
+}
+
+.main__table td:nth-of-type(2) {
+    width: 150px;
+}
+
+.main__table td:nth-of-type(3) {
+    width: 100px;
+}
+
+.main--footer {
+    display: flex;
+    justify-content: center;
+}
+
+.main--footer p {
+    margin: 10px;
+}
+
+.color-text {
+    color: blue;
+    font-weight: bold;
+}

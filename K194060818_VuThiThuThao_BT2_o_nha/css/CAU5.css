@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(189, 152, 96);
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    height: 100vh;
+    background-image: url(/img/CAU5/Wall2.jpg);
+}
+
+.logo {
+    background-image: url(/img/CAU5/Mountain.jpg);
+    background-repeat: repeat-x;
+    height: 70px;
+}
+
+.logo img {
+    height: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+iFrame {
+    padding: 5px;
+    width: 600px;
+    height: 600px;
+    border: none;
+}
+
+td:nth-child(1) {
+    width: 200px;
+    vertical-align: top;
+    background-color: rgb(189, 160, 160);
+}
+
+.content ul {
+    padding-left: 4px;
+    margin: 0;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.content li {
+    padding-left: 15px;
+    list-style: none;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.content a {
+    color: rgb(151, 27, 151);
+}
+
+.content a:hover {
+    color: red;
+}
+
+.content a:active {
+    color: black;
+}

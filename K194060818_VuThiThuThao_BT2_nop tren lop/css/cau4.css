@@ -1,0 +1,11 @@
+.no-line {
+    display: block;
+}
+
+.no-line img {
+    width: 100%;
+}
+
+td:first-child {
+    width: 30%;
+}

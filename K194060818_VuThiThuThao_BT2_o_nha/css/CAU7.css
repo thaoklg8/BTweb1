@@ -1,0 +1,51 @@
+.main {
+    width: 850px;
+    height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 0;
+}
+
+.main .left {
+    width: 250px;
+    border: 2PX solid black;
+}
+
+.main img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.bd-top img {
+    border-top: 2PX solid black;
+}
+
+.main .right {
+    width: 600px;
+    border: 2PX solid black;
+    border-left: 0PX solid black;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+/*trang cua iframe*/
+
+.para {}
+
+.para .title {
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.para img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}

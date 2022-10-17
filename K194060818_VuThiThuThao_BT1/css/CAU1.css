@@ -1,0 +1,42 @@
+.main {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*phần top*/
+
+.top {}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+
+/*phần content*/
+
+.content {
+    margin-left: 20px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+ol {
+    font-size: 18px;
+    margin: 8px 0px;
+}

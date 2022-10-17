@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Newborn Registration</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="header-logo">
+                <img src="/cau4/img/Logo.gif" alt="">
+            </div>
+            <h2>Newborn Registration</h2>
+        </div>
+        <div class="container">
+            <form action="#" method="get">
+                <div class="form-row">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" class="size4">
+                </div>
+                <ol>
+                    <li>
+                        <div class="form-row flex-row">
+                            <div class="block">
+                                <label for="firstname">Infant's first name: </label>
+                                <input type="text" id="firstname" class="size4">
+                            </div>
+                            <div class="block">
+                                <label for="lastname">Last: </label>
+                                <input type="text" id="lastname" class="size4">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-row">
+                            <label for="record">Medical Record#: </label>
+                            <input type="text" id="record" class="size2">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-row">
+                            <label for="dob">Date of birth: </label>
+                            <input type="date" id="dob">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-row">
+                            <label for="weight">Borth weight: </label>
+                            <input type="text" id="weight" class="size2">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-row">
+                            <label for="score">APGAR score: </label>
+                            <input type="text" id="score" class="size1">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-row flex-row">
+                            <div class="block">
+                                <label for="mother-firstname">Mother's first name: </label>
+                                <input type="text" id="mother-firstname" class="size4">
+                            </div>
+                            <div class="block">
+                                <label for="mother-lastname">Last: </label>
+                                <input type="text" id="mother-lastname" class="size4">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-row flex-row">
+                            <div class="block">
+                                <label for="father-firstname">Father's first name: </label>
+                                <input type="text" id="father-firstname" class="size4">
+                            </div>
+                            <div class="block">
+                                <label for="father-lastname">Last: </label>
+                                <input type="text" id="father-lastname" class="size4">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-row option-check">
+                            <label for="check">Physician (check all that apply)</label>
+                            <select name="check" id="check" multiple>
+                                <option value="Warren">Dr.Warren Albert</option>
+                                <option value="Warren">Dr.Warren Albert</option>
+                                <option value="Warren">Dr.Warren Albert</option>
+                                <option value="Warren">Dr.Warren Albert</option>
+                            </select>
+                        </div>
+                    </li>
+                </ol>
+                <div class="form-row flex-row">
+                    <div class="block-center">
+                        <input type="submit" name="submit" value="Register" class="form__button btn-register">
+                        <input type="reset" name="reset" value="Cancel" class="form__button">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

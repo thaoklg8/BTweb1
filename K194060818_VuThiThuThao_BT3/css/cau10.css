@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+}
+
+.main--header img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.header--menu {
+    display: flex;
+    justify-content: center;
+}
+
+.header--menu ul {
+    display: flex;
+}
+
+.header--menu li {
+    list-style: none;
+    margin: 5px;
+}
+
+.title-color {
+    color: rgba(235, 156, 10, 0.932);
+    ;
+}
+
+.span-color {
+    color: brown;
+    font-weight: bold;
+}
+
+h1,
+h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+.content-top p {
+    line-height: 25px;
+}
+
+.main--content {
+    padding: 5px;
+    font-weight: bold;
+}
+
+.content-middle {
+    display: flex;
+}
+
+.content-middle li,
+.right p {
+    line-height: 22px;
+}
+
+.left {
+    flex: 2;
+}
+
+.right {
+    flex: 1;
+    border: 1px solid green;
+    background-color: honeydew;
+}
+
+.para-pic img {
+    display: inline;
+    right: 10px;
+    float: right;
+}
+
+.para-pic p {
+    margin-top: 10px;
+}
+
+.para {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    padding-left: 5px;
+}
+
+.para1 {
+    margin-left: 30px;
+    background-color: khaki;
+    margin-right: 15%;
+}
+
+.main--footer {
+    margin: 5px;
+    font-style: italic;
+}

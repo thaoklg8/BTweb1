@@ -1,0 +1,63 @@
+.fullscreen img {
+    width: 100%;
+}
+
+.para-menu {
+    margin-left: 10px;
+}
+
+.para-menu img {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.para-menu h2 {
+    color: yellow;
+}
+
+.para-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.white {
+    color: rgb(230, 224, 224);
+}
+
+.red {
+    color: red;
+}
+
+.para-menu li {
+    text-decoration-line: underline;
+}
+
+.para-pic {
+    margin-top: 0;
+}
+
+.para-pic h4 {
+    text-align: center;
+    color: rgb(243, 21, 21);
+}
+
+.para-pic img {
+    float: right;
+    display: block;
+}
+
+td:first-child {
+    width: 20%;
+}
+
+td,
+tr {
+    vertical-align: top;
+}
+
+.para {
+    color: brown;
+    background-color: yellow;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum</title>
+    <script src="../JS/cau5.js"></script>
+    <style>
+        .main {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .table-layout {
+            justify-content: center;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .footer {
+            text-align: right;
+            margin-right: 40px;
+        }
+        
+        .footer button {
+            margin-top: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        <table class="table-layout">
+            <tr>
+                <th>Mã sản phẩm</th>
+                <th>Tên sản phẩm</th>
+                <th>Giá</th>
+                <th>Số lượng</th>
+                <th>Thành tiền</th>
+            </tr>
+            <tr>
+                <td>C112</td>
+                <td>Chuột Quang</td>
+                <td id="gia1">10$</td>
+                <td><input type="text" id="soluong1" onkeyup="sum1()"></td>
+                <td><input type="text" id="thanhtien1"></td>
+            </tr>
+            <tr>
+                <td>B124</td>
+                <td>Bàn phím</td>
+                <td id="gia2">20$</td>
+                <td><input type="text" id="soluong2" onkeyup="sum2()"></td>
+                <td><input type="text" id="thanhtien2"></td>
+            </tr>
+            <tr>
+                <td>U125</td>
+                <td>USB KingMax</td>
+                <td id="gia3">15$</td>
+                <td><input type="text" id="soluong3" onkeyup="sum3()"></td>
+                <td><input type="text" id="thanhtien3"></td>
+            </tr>
+        </table>
+        <hr/>
+        <div class="footer">
+            <div>
+                <label class="footer__label" for="sum">Total</label>
+                <input class="footer__input" type="text" name="total" id="sum">
+            </div>
+            <button onclick="sum()">TongCong</button>
+        </div>
+    </div>
+</body>
+
+</html>

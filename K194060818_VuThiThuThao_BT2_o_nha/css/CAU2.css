@@ -1,0 +1,60 @@
+.main {
+    line-height: 25px;
+    font-size: 18px;
+    background-image: url(/img/CAU2/Marble.jpg);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bolder;
+    margin: 0;
+    color: red;
+}
+
+table {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    border-collapse: collapse;
+    caption-side: center;
+    border-spacing: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 456px;
+}
+
+caption {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    empty-cells: show;
+}
+
+tr,
+td,
+th {
+    border: 2px solid black;
+}
+
+th {
+    background-color: lawngreen;
+    margin-right: 10px;
+}
+
+td:first-child {
+    background-color: lemonchiffon;
+}
+
+td:not(first-child),
+.table tr:last-child td:first-child {
+    background-color: white;
+}
